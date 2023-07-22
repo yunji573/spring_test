@@ -306,6 +306,10 @@ public class MovieController {
 	}
 	
 	
+	@GetMapping("admin/test")
+	public String test() {
+		return "redirect:/movie/admin/list/1";
+	}
 	
 	
 }
